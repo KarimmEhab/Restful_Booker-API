@@ -5,16 +5,15 @@ This project was built during ITI training to showcase industry-level skills in 
 
 ---
 
+
 🔧 Tech Stack
-Postman – Manual API testing
-Newman – Command-line test runner for Postman collections
-Rest Assured – Java library for RESTful automation
-TestNG – Framework for organizing and running tests
-Maven – Project management and dependency handling
-Allure Reports – Beautiful test reporting
-SLF4J (Logger) – Structured logging
-POJOs – Clean request/response handling
-Modular Java Structure – Separated tests by module
+| Category          | Tools / Frameworks                           |
+|-------------------|---------------------------------------------|
+| Manual API        | Postman, Newman                             |
+| Automation        | Java, Rest Assured, TestNG                  |
+| Build Tool        | Maven                                       |
+| Reporting         | Allure Reports, SLF4J Logger                |
+| Data Models       | POJOs for request/response handling         |
 
 ---
 
@@ -37,30 +36,44 @@ Modular Java Structure – Separated tests by module
 
 ---
 
-▶️ How to Run Automation Tests
-- Install dependencies:
-  mvn clean install
+## ▶️ How to Run Automation Tests
 
-- Run tests:
-  mvn test
 
-- Generate Allure Report (optional):
-  mvn allure:serve
+
+1. **Install dependencies:**
+   ```bash
+   mvn clean install
+   ```
+
+2. **Run tests:**
+   ```bash
+   mvn test
+   ```
+
+3. **Generate Allure Report (optional):**
+   ```bash
+   mvn allure:serve
+   ```
 
 ---
 
-  🧰 Tools Used
-Category	Tools/Frameworks
-Manual API	Postman, Newman
-Automation	Rest Assured, TestNG
-Build Tool	Maven
-Reporting	Allure, Logger (SLF4J)
-Language	Java
+## 🧰 Tools Used
+
+| Category     | Tools/Frameworks        |
+|--------------|--------------------------|
+| Manual API   | Postman, Newman          |
+| Automation   | Rest Assured, TestNG     |
+| Build Tool   | Maven                    |
+| Reporting    | Allure, Logger (SLF4J)   |
+| Language     | Java                     |
 
 ---
 
-🙌 Credits
-Developed as part of the ITI Graduation Project
-Guided by mentors and supported by ITI training team
+## 🙌 Credits
+
+- Developed as part of the **ITI Graduation Project**
+- Guided by mentors and supported by ITI training team
+
+---
 
 
