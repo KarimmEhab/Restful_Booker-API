@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%highlight{%p}] %c{1} - %m%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <File name="FileLogger" fileName="target/test-log.log" append="false">
+            <PatternLayout>
+                <Pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%p] %c{1} - %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+    </Loggers>
+</Configuration>
